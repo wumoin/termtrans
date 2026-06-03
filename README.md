@@ -18,7 +18,7 @@ man ls | col -b | termtrans
 - 支持 OpenAI-compatible provider。
 - 支持流式输出和非流式输出。
 - 支持本地命名模型配置，可保存多个模型并设置默认模型。
-- 支持历史记录复用，历史数据库使用 SQLite。
+- 支持历史记录复用，翻译相同文本可直接复用之前的译文，历史数据库使用 SQLite。
 - 支持内置目标语言 prompt，也支持自定义或覆盖 prompt。
 - stdout 只输出译文；错误、交互提示和进度信息输出到 stderr。
 
