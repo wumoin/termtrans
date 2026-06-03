@@ -187,12 +187,6 @@ cat README.md | termtrans --force
 从 GitHub Releases 下载 Windows x64 文件：
 
 ```text
-termtrans-0.1.0-windows-x64.exe
-```
-
-建议把它重命名为：
-
-```text
 termtrans.exe
 ```
 
