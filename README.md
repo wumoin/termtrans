@@ -7,7 +7,7 @@
 ```bash
 termtrans "hello world"
 cat README.md | termtrans --to zh-CN > README.zh.md
-man git | col -b | termtrans | less -R
+man ls | col -b | termtrans 
 ```
 
 注意：`termtrans README.md` 会翻译字面文本 `README.md`，不会读取文件内容。翻译文件请使用 `cat README.md | termtrans`、PowerShell 的 `Get-Content`，或 shell 重定向。
@@ -26,9 +26,8 @@ man git | col -b | termtrans | less -R
 
 请在 GitHub Releases 页面下载对应平台的文件：
 
-```text
-https://github.com/wumoin/termtrans-pri/releases
-```
+
+[release](https://github.com/wumoin/termtrans/releases)
 
 推荐下载：
 
