@@ -24,7 +24,7 @@ bool PlainWriter::Write(std::string_view text) {
     return false;
   }
 
-  output_stream_ << text;
+  output_stream_ << text << std::flush;
   if (!output_stream_.good()) {
     is_cancelled_ = true;
     return false;
