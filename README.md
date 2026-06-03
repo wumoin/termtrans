@@ -32,7 +32,7 @@ man ls | col -b | termtrans
 推荐下载：
 
 - Linux Debian/Ubuntu：`termtrans_0.1.0_amd64.deb`
-- Windows x64：`termtrans-0.1.0-windows-x64.exe`
+- Windows x64：`termtrans.exe`
 
 后续版本发布时，请优先下载最新版本中与你系统匹配的文件。
 
