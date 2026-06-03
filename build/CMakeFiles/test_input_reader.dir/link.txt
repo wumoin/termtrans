@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_input_reader.dir/link.d CMakeFiles/test_input_reader.dir/tests/test_input_reader.cpp.o -o test_input_reader  libtermtrans_core.a /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libsqlite3.so

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_openai_compatible_translator.dir/link.d CMakeFiles/test_openai_compatible_translator.dir/tests/test_openai_compatible_translator.cpp.o -o test_openai_compatible_translator  libtermtrans_core.a /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libsqlite3.so

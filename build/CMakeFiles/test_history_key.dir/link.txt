@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_history_key.dir/link.d CMakeFiles/test_history_key.dir/tests/test_history_key.cpp.o -o test_history_key  libtermtrans_core.a /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libsqlite3.so
