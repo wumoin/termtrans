@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/wumo/.git/termtrans-pub
+# Build directory: /home/wumo/.git/termtrans-pub/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[test_application]=] "/home/wumo/.git/termtrans-pub/build/test_application")
+set_tests_properties([=[test_application]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;131;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_args]=] "/home/wumo/.git/termtrans-pub/build/test_args")
+set_tests_properties([=[test_args]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;132;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_app_constants]=] "/home/wumo/.git/termtrans-pub/build/test_app_constants")
+set_tests_properties([=[test_app_constants]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;133;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_chunker]=] "/home/wumo/.git/termtrans-pub/build/test_chunker")
+set_tests_properties([=[test_chunker]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;134;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_config]=] "/home/wumo/.git/termtrans-pub/build/test_config")
+set_tests_properties([=[test_config]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;135;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_history_key]=] "/home/wumo/.git/termtrans-pub/build/test_history_key")
+set_tests_properties([=[test_history_key]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;136;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_history_policy]=] "/home/wumo/.git/termtrans-pub/build/test_history_policy")
+set_tests_properties([=[test_history_policy]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;137;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_history_store]=] "/home/wumo/.git/termtrans-pub/build/test_history_store")
+set_tests_properties([=[test_history_store]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;138;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_input_reader]=] "/home/wumo/.git/termtrans-pub/build/test_input_reader")
+set_tests_properties([=[test_input_reader]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;139;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_messages]=] "/home/wumo/.git/termtrans-pub/build/test_messages")
+set_tests_properties([=[test_messages]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;140;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_model_profile]=] "/home/wumo/.git/termtrans-pub/build/test_model_profile")
+set_tests_properties([=[test_model_profile]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;141;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_openai_compatible_translator]=] "/home/wumo/.git/termtrans-pub/build/test_openai_compatible_translator")
+set_tests_properties([=[test_openai_compatible_translator]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;142;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_plain_writer]=] "/home/wumo/.git/termtrans-pub/build/test_plain_writer")
+set_tests_properties([=[test_plain_writer]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;143;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_prompt_registry]=] "/home/wumo/.git/termtrans-pub/build/test_prompt_registry")
+set_tests_properties([=[test_prompt_registry]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;144;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+add_test([=[test_translation_session]=] "/home/wumo/.git/termtrans-pub/build/test_translation_session")
+set_tests_properties([=[test_translation_session]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/wumo/.git/termtrans-pub/CMakeLists.txt;128;add_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;145;add_termtrans_test;/home/wumo/.git/termtrans-pub/CMakeLists.txt;0;")
+subdirs("_deps/tomlplusplus-build")
+subdirs("_deps/nlohmann_json-build")

@@ -1,0 +1,49 @@
+; termtrans Windows installer template.
+; scripts/package_windows.ps1 replaces placeholders before invoking makensis.
+
+Unicode true
+Name "termtrans"
+OutFile "@OUT_FILE@"
+InstallDir "$PROGRAMFILES64\termtrans"
+RequestExecutionLevel admin
+
+!define APP_NAME "termtrans"
+!define APP_VERSION "@VERSION@"
+!define UNINSTALL_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\termtrans"
+
+Page directory
+Page instfiles
+
+UninstPage uninstConfirm
+UninstPage instfiles
+
+Section "termtrans" SecMain
+  SetOutPath "$INSTDIR\bin"
+  File "@STAGE_DIR@\bin\termtrans.exe"
+
+  SetOutPath "$INSTDIR\share\doc\termtrans"
+  File /nonfatal "@STAGE_DIR@\share\doc\termtrans\README.md"
+
+  WriteUninstaller "$INSTDIR\Uninstall.exe"
+  WriteRegStr HKLM "${UNINSTALL_KEY}" "DisplayName" "${APP_NAME}"
+  WriteRegStr HKLM "${UNINSTALL_KEY}" "DisplayVersion" "${APP_VERSION}"
+  WriteRegStr HKLM "${UNINSTALL_KEY}" "Publisher" "termtrans"
+  WriteRegStr HKLM "${UNINSTALL_KEY}" "InstallLocation" "$INSTDIR"
+  WriteRegStr HKLM "${UNINSTALL_KEY}" "UninstallString" "$\"$INSTDIR\Uninstall.exe$\""
+  WriteRegDWORD HKLM "${UNINSTALL_KEY}" "NoModify" 1
+  WriteRegDWORD HKLM "${UNINSTALL_KEY}" "NoRepair" 1
+SectionEnd
+
+Section "Uninstall"
+  Delete "$INSTDIR\bin\termtrans.exe"
+  RMDir "$INSTDIR\bin"
+
+  Delete "$INSTDIR\share\doc\termtrans\README.md"
+  RMDir "$INSTDIR\share\doc\termtrans"
+  RMDir "$INSTDIR\share\doc"
+  RMDir "$INSTDIR\share"
+
+  Delete "$INSTDIR\Uninstall.exe"
+  DeleteRegKey HKLM "${UNINSTALL_KEY}"
+  RMDir "$INSTDIR"
+SectionEnd
